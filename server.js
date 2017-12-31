@@ -6,8 +6,8 @@ var server = http.createServer(function(request, response) {
     response.writeHead(404);
     response.end();
 });
-server.listen(8080, function() {
-    console.log((new Date()) + ' Server is listening on port 8080');
+server.listen(8090, function() {
+    console.log((new Date()) + ' Server is listening on port 8090');
 });
 
 wsServer = new WebSocketServer({
@@ -22,7 +22,7 @@ wsServer = new WebSocketServer({
 
 function originIsAllowed(origin) {
   // put logic here to detect whether the specified origin is allowed.
-  return true;
+  return true;clearScreenDown
 }
 
 wsServer.on('request', function(request) {
