@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "websocket": "^1.0.25"
+  }
 }
